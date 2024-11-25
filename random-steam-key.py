@@ -34,7 +34,7 @@ def genKey():
 genKey()
 
 while True:
-    genMore = str(input("Would you like to generate more keys [yes/no] (default: no)? "))
+    genMore = str(input("Would you like to generate more keys [yes/no] (default: yes)? "))
 
     if genMore in affirmatives:
         genKey()
