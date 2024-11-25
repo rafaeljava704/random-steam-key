@@ -18,7 +18,7 @@ def genKey():
         keys.append(key)
         print(key)
 
-    isSaved = str(input("Would you like to save the key(s) [yes/no] (default: no)? "))
+    isSaved = str(input("Would you like to save the key(s) [yes/no] (default: yes)? "))
 
     if isSaved in affirmatives:
         saveName = str(input("Where would you like to save them [filename] (default: keys.txt)? "))
